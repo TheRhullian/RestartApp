@@ -21,6 +21,7 @@
 		C7BD898727CEC3210014341E /* ColorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD898627CEC3210014341E /* ColorsExtension.swift */; };
 		C7BD898927CEC5F40014341E /* ImagesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD898827CEC5F40014341E /* ImagesExtension.swift */; };
 		C7BD898C27CECE110014341E /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD898B27CECE110014341E /* CircleGroupView.swift */; };
+		C7BD898E27CEE3630014341E /* AudioPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD898D27CEE3630014341E /* AudioPlayer.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,7 @@
 		C7BD898627CEC3210014341E /* ColorsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtension.swift; sourceTree = "<group>"; };
 		C7BD898827CEC5F40014341E /* ImagesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesExtension.swift; sourceTree = "<group>"; };
 		C7BD898B27CECE110014341E /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
+		C7BD898D27CEE3630014341E /* AudioPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayer.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 			children = (
 				C7BD898627CEC3210014341E /* ColorsExtension.swift */,
 				C7BD898827CEC5F40014341E /* ImagesExtension.swift */,
+				C7BD898D27CEE3630014341E /* AudioPlayer.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 				C7BD898C27CECE110014341E /* CircleGroupView.swift in Sources */,
 				C7BD898727CEC3210014341E /* ColorsExtension.swift in Sources */,
 				C7BD898327CEC0180014341E /* OnboardingView.swift in Sources */,
+				C7BD898E27CEE3630014341E /* AudioPlayer.swift in Sources */,
 				C7BD898527CEC0200014341E /* HomeView.swift in Sources */,
 				C7BD898927CEC5F40014341E /* ImagesExtension.swift in Sources */,
 				C7BD895227CEBD4E0014341E /* ContentView.swift in Sources */,
