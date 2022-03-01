@@ -24,6 +24,10 @@ extension Image {
         Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
     }
     
+    static var leftRightArrow: Image {
+        Image(systemName: "arrow.left.and.right.circle")
+    }
+    
     // Modifications
     func imageModification() -> some View {
         self
