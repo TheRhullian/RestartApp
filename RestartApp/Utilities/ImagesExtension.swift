@@ -16,6 +16,14 @@ extension Image {
         Image("char-2")
     }
     
+    static var doubleChevronRight: Image {
+        Image(systemName: "chevron.right.2")
+    }
+    
+    static var recycle: Image {
+        Image(systemName: "arrow.triangle.2.circlepath.circle.fill")
+    }
+    
     // Modifications
     func imageModification() -> some View {
         self

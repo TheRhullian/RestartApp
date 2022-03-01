@@ -20,6 +20,7 @@
 		C7BD898527CEC0200014341E /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD898427CEC0200014341E /* HomeView.swift */; };
 		C7BD898727CEC3210014341E /* ColorsExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD898627CEC3210014341E /* ColorsExtension.swift */; };
 		C7BD898927CEC5F40014341E /* ImagesExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD898827CEC5F40014341E /* ImagesExtension.swift */; };
+		C7BD898C27CECE110014341E /* CircleGroupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BD898B27CECE110014341E /* CircleGroupView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		C7BD898427CEC0200014341E /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		C7BD898627CEC3210014341E /* ColorsExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorsExtension.swift; sourceTree = "<group>"; };
 		C7BD898827CEC5F40014341E /* ImagesExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagesExtension.swift; sourceTree = "<group>"; };
+		C7BD898B27CECE110014341E /* CircleGroupView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleGroupView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +110,7 @@
 			isa = PBXGroup;
 			children = (
 				C7BD898127CEBFDC0014341E /* Info.plist */,
+				C7BD898A27CECDEE0014341E /* Views */,
 				C7BD898027CEBF010014341E /* Utilities */,
 				C7BD897F27CEBEEA0014341E /* Modules */,
 				C7BD897D27CEBE510014341E /* Resources */,
@@ -177,6 +180,14 @@
 				C7BD898827CEC5F40014341E /* ImagesExtension.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C7BD898A27CECDEE0014341E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C7BD898B27CECE110014341E /* CircleGroupView.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -311,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C7BD898C27CECE110014341E /* CircleGroupView.swift in Sources */,
 				C7BD898727CEC3210014341E /* ColorsExtension.swift in Sources */,
 				C7BD898327CEC0180014341E /* OnboardingView.swift in Sources */,
 				C7BD898527CEC0200014341E /* HomeView.swift in Sources */,

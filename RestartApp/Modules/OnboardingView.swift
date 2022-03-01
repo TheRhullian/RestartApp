@@ -8,6 +8,7 @@
 import SwiftUI
 
 struct OnboardingView: View {
+    
     @AppStorage("onboarding") var isOnboardingViewActive: Bool = true
     
     var body: some View {
@@ -35,15 +36,7 @@ struct OnboardingView: View {
                 
                 // MARK: CENTER
                 ZStack {
-                    ZStack {
-                        Circle()
-                            .stroke(.white.opacity(0.2),lineWidth: 40)
-                            .frame(width: 260, height: 260, alignment: .center)
-                        
-                        Circle()
-                            .stroke(.white.opacity(0.2),lineWidth: 80)
-                            .frame(width: 260, height: 260, alignment: .center)
-                    }//: ZSTACK
+                    CircleGroupView(shapeColor: .white, shapeOpacity: 0.2)
                     Image.characterOne.imageModification()
                     
                 }//: CENTER
@@ -80,7 +73,7 @@ struct OnboardingView: View {
                             Circle()
                                 .fill(.black.opacity(0.15))
                                 .padding(8)
-                            Image(systemName: "chevron.right.2")
+                            Image.doubleChevronRight
                                 .font(.system(size: 24, weight: .bold))
                         }
                         .foregroundColor(.white)
